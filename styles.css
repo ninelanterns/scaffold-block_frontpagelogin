@@ -1,0 +1,27 @@
+/**
+ * The stylesheet for the site login block
+ *
+ * All style classes should be prefixed with '.block_trainingplan' to prevent 
+ * them cascading outside of the trainingplan block.
+ * 
+ * @package    blocks
+ * @subpackage frontpagelogin
+ * @copyright  &copy; 2012 Nine Lanterns Pty Ltd  {@link http://www.ninelanterns.com.au}
+ * @author     tri.le
+ * @version    2.1
+ */
+
+/* Use border border on the content page for the front page */
+#page-site-index #region-main .block {
+    border: 1px solid #DDDDDD;
+    margin-bottom: 2px;
+}
+
+.block_frontpagelogin.block .content {
+    margin: 0;
+    padding: 0;
+}
+
+.block_frontpagelogin .loginbox {
+    border: 0px;
+}
